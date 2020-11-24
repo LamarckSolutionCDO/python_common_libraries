@@ -3,7 +3,7 @@ import os
 import pytest
 
 from exceptions import MissingFilePathException, IncorrectFileExtension
-from get_data_from_json_file_as_a_dict import get_dict_from_json_file
+from src.get_data_from_json_file_as_a_dict import get_dict_from_json_file
 
 
 def test_get_dict_from_json_file_no_param():
