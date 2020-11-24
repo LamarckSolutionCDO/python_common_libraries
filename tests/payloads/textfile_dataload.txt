@@ -1,0 +1,3 @@
+Hello,
+This is a text file with multiple lines !
+End of file.
