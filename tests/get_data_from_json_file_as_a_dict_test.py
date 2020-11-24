@@ -15,8 +15,9 @@ def test_get_dict_from_json_file_no_param():
 def test_get_dict_from_json_file_wrong_extension():
     dataload_file = os.path.join(
         os.path.realpath(os.path.curdir),
+        'tests',
         'payloads',
-        'textfile_dataload.json'
+        'textfile_dataload.txt'
     )
 
     with pytest.raises(IncorrectFileExtension) as exc:
@@ -27,6 +28,7 @@ def test_get_dict_from_json_file_wrong_extension():
 def test_get_dict_from_json_file_correct_test():
     dataload_file = os.path.join(
         os.path.realpath(os.path.curdir),
+        'tests',
         'payloads',
         'json_dataload.json'
     )
